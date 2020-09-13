@@ -21,10 +21,18 @@ const useStyles = makeStyles((theme) => ({
   gridList: {
     width: 800,
     height: 700,
+    // [theme.breakpoints.up("xs")]: {
+    //   width: "100%",
+    //   height: "10%",
+    // },
   },
   imageStyle: {
     width: "100%",
     height: "100%",
+    [theme.breakpoints.up("xs")]: {
+      //   width: "10%",
+      //   height: "10%",
+    },
   },
   modal: {
     display: "flex",
@@ -35,6 +43,9 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
     width: 600,
+    [theme.breakpoints.down("xs")]: {
+      width: 350,
+    },
     backgroundColor: theme.palette.background.paper,
     border: "2px solid #000",
     boxShadow: theme.shadows[5],

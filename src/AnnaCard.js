@@ -19,9 +19,16 @@ const useStyles = makeStyles((theme) => ({
     alignSelf: "center",
     margin: "30px",
     // backgroundColor: "rgba(217, 217, 217, 1)",
+    [theme.breakpoints.up("xs")]: {
+      margin: 10,
+      marginBottom: 20,
+    },
   },
   media: {
     height: 445,
+    [theme.breakpoints.up("xs")]: {
+      height: 250,
+    },
     width: 800,
     alignSelf: "center",
   },
