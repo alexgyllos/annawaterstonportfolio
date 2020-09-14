@@ -1,8 +1,8 @@
 import React from "react";
 
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
-
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import GridList from "@material-ui/core/GridList";
 import GridListTile from "@material-ui/core/GridListTile";
 import Modal from "@material-ui/core/Modal";
@@ -21,18 +21,15 @@ const useStyles = makeStyles((theme) => ({
   gridList: {
     width: 800,
     height: 700,
-    // [theme.breakpoints.up("xs")]: {
-    //   width: "100%",
-    //   height: "10%",
-    // },
+    [theme.breakpoints.down("sm")]: {
+      //   width: 100,
+      //   height: 100,
+    },
+    cellHeight: 440,
   },
   imageStyle: {
     width: "100%",
     height: "100%",
-    [theme.breakpoints.up("xs")]: {
-      //   width: "10%",
-      //   height: "10%",
-    },
   },
   modal: {
     display: "flex",
@@ -53,30 +50,20 @@ const useStyles = makeStyles((theme) => ({
     alignSelf: "center",
     outline: 0,
   },
+  tileImage: {
+    "&:hover": {
+      cursor: "pointer",
+    },
+  },
 }));
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *     cols: 2,
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
 const ImageContainer = ({ tileData }) => {
   const classes = useStyles();
+  const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const [tile, setTile] = React.useState("");
+
+  const smallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleOpen = (tile) => {
     setOpen(true);
@@ -88,12 +75,25 @@ const ImageContainer = ({ tileData }) => {
     setOpen(false);
   };
 
+  const setColumns = () => {
+    if (smallScreen) {
+      return 1;
+    } else {
+      return 3;
+    }
+  };
+
   return (
     <div className={classes.root}>
-      <GridList cellHeight={440} className={classes.gridList} cols={3}>
+      <GridList
+        cellHeight={440}
+        className={classes.gridList}
+        cols={setColumns()}
+      >
         {tileData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
             <img
+              className={classes.tileImage}
               src={tile.img}
               alt={tile.title}
               onClick={() => handleOpen(tile)}
