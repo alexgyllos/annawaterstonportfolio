@@ -46,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
+    color: "black",
   },
   hide: {
     display: "none",
@@ -85,7 +86,8 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: theme.spacing(4),
   },
   headerTitle: {
-    marginLeft: "auto",
+    // marginLeft: "auto",
+    color: "black",
   },
 }));
 
@@ -116,9 +118,9 @@ export default function PersistentDrawerLeft() {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar style={{ backgroundColor: "white" }}>
           <IconButton
-            color="inherit"
+            // color="black"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
@@ -127,7 +129,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.headerTitle} variant="h6" noWrap>
-            Anna Waterston
+            Menu
           </Typography>
         </Toolbar>
       </AppBar>
@@ -143,9 +145,11 @@ export default function PersistentDrawerLeft() {
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
-              <ChevronLeftIcon />
+              // <ChevronLeftIcon />
+              <Typography>Exit</Typography>
             ) : (
-              <ChevronRightIcon />
+              // <ChevronRightIcon />
+              <Typography>Exit</Typography>
             )}
           </IconButton>
         </div>

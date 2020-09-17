@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Grid, Divider, Typography } from "@material-ui/core";
+import { Grid, Divider, Typography, CssBaseline } from "@material-ui/core";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Header from "./Header";
 import AnnaCard from "./AnnaCard";
@@ -21,12 +21,17 @@ import Untitled2 from "./assets/2020 Sketching/Untitled 2.jpg";
 import Sun from "./assets/2020 Sketching/Ηλιος.jpg";
 import Orange from "./assets/2020 Sketching/Πορτοκαλι.jpg";
 import Oropos from "./assets/2020 Sketching/Ωρωποσ.jpg";
+import Pattern from "./assets/pattern.png";
 
 import ImageContainer from "./ImageContainer";
 
 const useStyles = makeStyles((theme) => ({
   introGrid: {
     display: "flex",
+    backgroundColor: "#3f5583",
+    // backgroundImage: `url(${Pattern})`,
+    // backgroundRepeat: "no-repeat",
+    // backgroundSize: "cover",
   },
   contentGrid: {
     display: "flex",
@@ -36,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       margin: "10px",
     },
+  },
+  sectionTextStyle: {
+    color: "white",
   },
 }));
 
@@ -159,22 +167,50 @@ function App() {
           </Grid>
 
           <Grid item xs={12}>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="h2"
+              align="center"
+              className={classes.sectionTextStyle}
+            >
               Figure Drawing
-              <Divider />
-            </Typography>
-            <Typography gutterBottom variant="h5" component="h2">
-              Digital
+              <ImageContainer tileData={sketches} />
             </Typography>
             <Divider />
 
-            <Typography gutterBottom variant="h5" component="h2">
-              Projects
-            </Typography>
-            <Divider />
-
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="h2"
+              align="center"
+              className={classes.sectionTextStyle}
+            >
               Sketches 2020
+              <ImageContainer tileData={sketches} />
+            </Typography>
+            <Divider />
+
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="h2"
+              align="center"
+              className={classes.sectionTextStyle}
+            >
+              Digital
+              <ImageContainer tileData={sketches} />
+            </Typography>
+            <Divider />
+
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="h2"
+              align="center"
+              className={classes.sectionTextStyle}
+            >
+              Projects
               <ImageContainer tileData={sketches} />
             </Typography>
           </Grid>

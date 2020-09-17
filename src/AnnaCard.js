@@ -25,9 +25,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   media: {
-    height: 445,
     [theme.breakpoints.up("xs")]: {
-      height: 250,
+      height: 500,
     },
     width: 800,
     alignSelf: "center",
@@ -45,6 +44,9 @@ const useStyles = makeStyles((theme) => ({
   },
   expandOpen: {
     transform: "rotate(180deg)",
+  },
+  profileName: {
+    color: "black",
   },
 }));
 
@@ -64,7 +66,12 @@ export default function MediaCard() {
         title="Anna Waterston"
       />
       <CardContent className={classes.text}>
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="h2"
+          className={classes.profileName}
+        >
           Anna Waterston
           <IconButton
             className={clsx(classes.expand, {
@@ -78,8 +85,8 @@ export default function MediaCard() {
           </IconButton>
         </Typography>
 
-        <Typography variant="body2" color="textSecondary" component="p">
-          Illustration - Graphic Design{" "}
+        <Typography variant="body1" color="textSecondary" component="p">
+          Illustration - Graphic Design
         </Typography>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
