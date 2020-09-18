@@ -26,13 +26,11 @@ import one from "./assets/Figure Drawing/02:03:20.jpg";
 import two from "./assets/Figure Drawing/03:08:20.jpg";
 import three from "./assets/Figure Drawing/06:01:20 2.jpg";
 import four from "./assets/Figure Drawing/06:01:20.jpg";
-import five from "./assets/Figure Drawing/06:07:20.jpg";
 import six from "./assets/Figure Drawing/06:09:20.jpg";
 import seven from "./assets/Figure Drawing/07:09:20.jpg";
 import eight from "./assets/Figure Drawing/08:06:20 2.jpg";
 import nine from "./assets/Figure Drawing/08:06:20.jpg";
 import ten from "./assets/Figure Drawing/18:05:20 2.jpg";
-import eleven from "./assets/Figure Drawing/18:05:20.jpg";
 import twelve from "./assets/Figure Drawing/20:07:20.jpg";
 import thirteen from "./assets/Figure Drawing/22:07:20.jpg";
 import fourteen from "./assets/Figure Drawing/23:06:20.jpg";
@@ -41,6 +39,50 @@ import sixteen from "./assets/Figure Drawing/29:06:20.jpg";
 import seventeen from "./assets/Figure Drawing/A Monday 2.jpg";
 import eighteen from "./assets/Figure Drawing/A Monday.jpg";
 import nineteen from "./assets/Figure Drawing/15:06:20.jpg";
+import curious1 from "./assets/Projects/Curious Collage/IMG_1905.jpg";
+import curious2 from "./assets/Projects/Curious Collage/IMG_1907.jpg";
+import curious3 from "./assets/Projects/Curious Collage/IMG_1909.jpg";
+import curious4 from "./assets/Projects/Curious Collage/IMG_1911.jpg";
+import curious5 from "./assets/Projects/Curious Collage/IMG_1912.jpg";
+import curious6 from "./assets/Projects/Curious Collage/IMG_1915.jpg";
+
+export const curious = [
+  {
+    img: curious1,
+    title: "1",
+    cols: 1,
+  },
+  {
+    img: curious2,
+    title: "2",
+    cols: 1,
+  },
+  {
+    img: curious3,
+    title: "3",
+    cols: 1,
+  },
+  {
+    img: curious3,
+    title: "3",
+    cols: 1,
+  },
+  {
+    img: curious4,
+    title: "4",
+    cols: 1,
+  },
+  {
+    img: curious5,
+    title: "5",
+    cols: 1,
+  },
+  {
+    img: curious6,
+    title: "6",
+    cols: 1,
+  },
+];
 
 export const figure = [
   {
@@ -75,22 +117,22 @@ export const figure = [
   },
   {
     img: two,
-    title: "03/08/20",
+    title: "03:08:20",
     cols: 3,
   },
   {
     img: three,
-    title: "06/01/20",
+    title: "06:01:20",
     cols: 1,
   },
   {
     img: four,
-    title: "06/01/20",
+    title: "06:01:20",
     cols: 1,
   },
   {
     img: six,
-    title: "06/09/20",
+    title: "06:09:20",
     cols: 1,
   },
   {
@@ -173,7 +215,7 @@ export const digital = [
 export const sketches = [
   {
     img: Alex,
-    title: "17/04/20",
+    title: "17:04:20",
     author: "Anna Waterston",
     cols: 3,
   },

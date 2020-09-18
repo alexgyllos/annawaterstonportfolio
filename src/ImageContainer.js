@@ -12,6 +12,7 @@ import Fade from "@material-ui/core/Fade";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    flexDirection: "column",
     flexWrap: "wrap",
     justifyContent: "space-around",
     overflow: "hidden",
@@ -66,9 +67,17 @@ const useStyles = makeStyles((theme) => ({
     alignSelf: "center",
     objectFit: "cover",
   },
+  infoStyle: {
+    color: "white",
+    width: "45%",
+    marginBottom: 20,
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
+  },
 }));
 
-const ImageContainer = ({ tileData }) => {
+const ImageContainer = ({ tileData, info }) => {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -112,6 +121,11 @@ const ImageContainer = ({ tileData }) => {
 
   return (
     <div className={classes.root}>
+      {info ? (
+        <Typography align="center" className={classes.infoStyle}>
+          {info}
+        </Typography>
+      ) : null}
       <GridList
         cellHeight={setCellHeight()}
         className={classes.gridList}

@@ -4,9 +4,7 @@ import { Grid, Divider, Typography, CssBaseline } from "@material-ui/core";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Header from "./Header";
 import AnnaCard from "./AnnaCard";
-
-import Pattern from "./assets/pattern.png";
-import { sketches, digital, figure } from "./imageImports";
+import { sketches, digital, figure, curious } from "./imageImports";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import ImageContainer from "./ImageContainer";
@@ -34,11 +32,28 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 30,
     padding: 20,
   },
+  projectDescriptionText: {
+    color: "white",
+    margin: 20,
+    padding: 20,
+    width: "40%",
+  },
 }));
 
 function App() {
   const classes = useStyles();
   const theme = useTheme();
+
+  const curiousInfo = `Exploratory collages playing with the juxtaposition created when
+  an object is removed from its customary context and placed in an
+  unexpected space, resulting in images with a rather jarring,
+  questionable validity applied to re-evaluating aesthetic
+  relationships within the wider ecosystem. Additionally, note the
+  unsettling semblance created by removing an object in its
+  entirety, leaving in its place a void of nothing. I took
+  influence from contemporary collage artists such as Puma Dunbar
+  and Karen Lynch.`;
+
   return (
     <Router>
       <Grid
@@ -107,7 +122,16 @@ function App() {
                 Projects
                 <Divider />
               </Typography>
-              <ImageContainer tileData={sketches} />
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="h2"
+                align="center"
+                className={classes.sectionTextStyle}
+              >
+                Curious Collages(2019)
+              </Typography>
+              <ImageContainer tileData={curious} info={curiousInfo} />
             </Grid>
           </Grid>
           <Grid item xs={false} sm={2}></Grid>
