@@ -22,6 +22,8 @@ import Collapse from "@material-ui/core/Collapse";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import StarBorder from "@material-ui/icons/StarBorder";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const drawerWidth = 240;
 
@@ -65,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
     justifyContent: "flex-end",
+    backgroundColor: "#3f5583",
   },
   content: {
     flexGrow: 1,
@@ -89,13 +92,17 @@ const useStyles = makeStyles((theme) => ({
     // marginLeft: "auto",
     color: "black",
   },
+  link: {
+    color: "black",
+    textDecoration: "none",
+  },
 }));
 
 export default function PersistentDrawerLeft() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-  const [nestedListOpen, setNestedListOpen] = React.useState(true);
+  const [nestedListOpen, setNestedListOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -146,70 +153,64 @@ export default function PersistentDrawerLeft() {
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
               // <ChevronLeftIcon />
-              <Typography>Exit</Typography>
+              <Typography style={{ color: "white" }}>Exit</Typography>
             ) : (
               // <ChevronRightIcon />
-              <Typography>Exit</Typography>
+              <Typography style={{ color: "white" }}>Exit</Typography>
             )}
           </IconButton>
         </div>
         <Divider />
         <List>
+          {["About Me"].map((text, index) => (
+            // <Link smooth to={`#${text}`}>
+            <Link smooth to="#about" className={classes.link}>
+              <ListItem button key={text}>
+                <ListItemText primary={text} />
+              </ListItem>
+            </Link>
+          ))}
           <ListItem button onClick={handleClick}>
-            <ListItemIcon>
-              <InboxIcon />
-            </ListItemIcon>
-            <ListItemText primary="Portfolio" />
+            <ListItemText primary="Portfolio" style={{ color: "black" }} />
             {nestedListOpen ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
           <Collapse in={nestedListOpen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemIcon>
-                  <StarBorder />
-                </ListItemIcon>
-                <ListItemText primary="Figure Drawing" />
-              </ListItem>
+              <Link smooth to="#figure-drawing" className={classes.link}>
+                <ListItem button className={classes.nested}>
+                  <ListItemText primary="Figure Drawing" />
+                </ListItem>
+              </Link>
             </List>
           </Collapse>
           <Collapse in={nestedListOpen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemIcon>
-                  <StarBorder />
-                </ListItemIcon>
-                <ListItemText primary="Digital" />
-              </ListItem>
+              <Link smooth to="#sketches" className={classes.link}>
+                <ListItem button className={classes.nested}>
+                  <ListItemText primary="Sketches 2020" />
+                </ListItem>
+              </Link>
             </List>
           </Collapse>
           <Collapse in={nestedListOpen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemIcon>
-                  <StarBorder />
-                </ListItemIcon>
-                <ListItemText primary="Sketches 2020" />
-              </ListItem>
+              <Link smooth to="#digital" className={classes.link}>
+                <ListItem button className={classes.nested}>
+                  <ListItemText primary="Digital" />
+                </ListItem>
+              </Link>
             </List>
           </Collapse>
+
           <Collapse in={nestedListOpen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested}>
-                <ListItemIcon>
-                  <StarBorder />
-                </ListItemIcon>
-                <ListItemText primary="Projects" />
-              </ListItem>
+              <Link smooth to="#projects" className={classes.link}>
+                <ListItem button className={classes.nested}>
+                  <ListItemText primary="Projects" />
+                </ListItem>
+              </Link>
             </List>
           </Collapse>
-          {["About Me", "Contact"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
         </List>
       </Drawer>
       <main
