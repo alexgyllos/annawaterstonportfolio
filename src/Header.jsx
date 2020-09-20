@@ -24,6 +24,7 @@ import ExpandMore from "@material-ui/icons/ExpandMore";
 import StarBorder from "@material-ui/icons/StarBorder";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 const drawerWidth = 240;
 
@@ -96,6 +97,10 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     textDecoration: "none",
   },
+  socialButton: {
+    color: "black",
+    marginLeft: "auto",
+  },
 }));
 
 export default function PersistentDrawerLeft() {
@@ -138,6 +143,7 @@ export default function PersistentDrawerLeft() {
           <Typography className={classes.headerTitle} variant="h6" noWrap>
             Menu
           </Typography>
+          <InstagramIcon className={classes.socialButton} fontSize="large" />
         </Toolbar>
       </AppBar>
       <Drawer

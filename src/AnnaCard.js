@@ -25,9 +25,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   media: {
-    [theme.breakpoints.up("xs")]: {
-      height: 500,
+    [theme.breakpoints.down("sm")]: {
+      height: 300,
     },
+    height: 500,
     width: 800,
     alignSelf: "center",
   },

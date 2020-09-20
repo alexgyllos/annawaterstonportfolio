@@ -45,6 +45,262 @@ import curious3 from "./assets/Projects/Curious Collage/IMG_1909.jpg";
 import curious4 from "./assets/Projects/Curious Collage/IMG_1911.jpg";
 import curious5 from "./assets/Projects/Curious Collage/IMG_1912.jpg";
 import curious6 from "./assets/Projects/Curious Collage/IMG_1915.jpg";
+import glasgow1 from "./assets/Projects/Glasgow/1 copy.jpg";
+import glasgow2 from "./assets/Projects/Glasgow/2 copy.jpg";
+import glasgow3 from "./assets/Projects/Glasgow/IMG_1621.jpg";
+import glasgow4 from "./assets/Projects/Glasgow/IMG_1626.jpg";
+import glasgow5 from "./assets/Projects/Glasgow/IMG_1627.jpg";
+import glasgow6 from "./assets/Projects/Glasgow/pattern1 copy.jpg";
+import glasgow7 from "./assets/Projects/Glasgow/pattern2 copy.jpg";
+import chateau1 from "./assets/Projects/Lait de Chateau/IMG_1656.jpg";
+import chateau2 from "./assets/Projects/Lait de Chateau/IMG_2136 2.jpg";
+import chateau3 from "./assets/Projects/Lait de Chateau/IMG_3399.jpg";
+import chateau4 from "./assets/Projects/Lait de Chateau/IMG_3400.jpg";
+import chateau5 from "./assets/Projects/Lait de Chateau/IMG_3402.jpg";
+import chateau6 from "./assets/Projects/Lait de Chateau/IMG_4506.jpg";
+import chateau7 from "./assets/Projects/Lait de Chateau/IMG_4620.jpg";
+import α from "./assets/Projects/Αλφα/Αλφα.jpg";
+import β from "./assets/Projects/Αλφα/Βητα.jpg";
+import γ from "./assets/Projects/Αλφα/Γαμμα.jpg";
+import δ from "./assets/Projects/Αλφα/Δελτα.jpg";
+import ε from "./assets/Projects/Αλφα/Εψιλον.jpg";
+import ζ from "./assets/Projects/Αλφα/Ζητα.jpg";
+import η from "./assets/Projects/Αλφα/Ητα.jpg";
+import θ from "./assets/Projects/Αλφα/Θητα.jpg";
+import ι from "./assets/Projects/Αλφα/Ιοτα.jpg";
+import κ from "./assets/Projects/Αλφα/Καππα.jpg";
+import λ from "./assets/Projects/Αλφα/Λαμδα.jpg";
+import μ from "./assets/Projects/Αλφα/Μι.jpg";
+import ν from "./assets/Projects/Αλφα/Νι.jpg";
+import ξ from "./assets/Projects/Αλφα/Ξι.jpg";
+import ο from "./assets/Projects/Αλφα/Ομικρον.jpg";
+import π from "./assets/Projects/Αλφα/Πι.jpg";
+import ρ from "./assets/Projects/Αλφα/Ρο.jpg";
+import σ from "./assets/Projects/Αλφα/Σιγμα.jpg";
+import τ from "./assets/Projects/Αλφα/Ταυ.jpg";
+import υ from "./assets/Projects/Αλφα/Υψιλον.jpg";
+import φ from "./assets/Projects/Αλφα/Φι.jpg";
+import χ from "./assets/Projects/Αλφα/Χι.jpg";
+import ψ from "./assets/Projects/Αλφα/Ψι.jpg";
+import ω from "./assets/Projects/Αλφα/Ωμεγα.jpg";
+
+export const curiousInfo = `Exploratory collages playing with the juxtaposition created when
+  an object is removed from its customary context and placed in an
+  unexpected space, resulting in images with a rather jarring,
+  questionable validity applied to re-evaluating aesthetic
+  relationships within the wider ecosystem. Additionally, note the
+  unsettling semblance created by removing an object in its
+  entirety, leaving in its place a void of nothing. I took
+  influence from contemporary collage artists such as Puma Dunbar
+  and Karen Lynch.`;
+
+export const alphaInfo =
+  "A self directed mini-project experimenting with typography. I reimagined the forms of the letters in the Greek alphabet to be represented through human gesture (inspired by yoga asanas). An amalgamation of personal interests, presented in a simple, yet communicative portrayal. I set myself the task of completing one per day for a total of 24 days.";
+
+export const glasgowInfo =
+  "Being the place I grew up, studied, and still live in, Glasgow is an incredibly important city to me. And certainly one worth exploring. Playing with colour theory and repetitive pattern, I produced these compositions, designed to examine place identity as an important dimension of social and cultural life in urban areas and the strong link created to place attachment and sense of belonging within an urbanised context.";
+
+export const chateauInfo =
+  "As part of a project I completed during my time at College, these images are composed of photographs I took exploring peripheral living, studying the contradiction of utopian ideals and dystopian realities. The subdued and contrasting tones reflect the urban context, alluding to the unmistakable melancholic atmosphere.";
+
+export const alpha = [
+  {
+    img: α,
+    title: "Άλφα",
+    cols: 1,
+  },
+  {
+    img: β,
+    title: "Βήτα",
+    cols: 1,
+  },
+  {
+    img: γ,
+    title: "Γάμα",
+    cols: 1,
+  },
+  {
+    img: δ,
+    title: "Δέλτα",
+    cols: 1,
+  },
+  {
+    img: ε,
+    title: "Έψιλον",
+    cols: 1,
+  },
+  {
+    img: ζ,
+    title: "Ζητα",
+    cols: 1,
+  },
+  {
+    img: η,
+    title: "Ήττα",
+    cols: 1,
+  },
+  {
+    img: θ,
+    title: "Θήτα",
+    cols: 1,
+  },
+  {
+    img: ι,
+    title: "Ιότα",
+    cols: 1,
+  },
+  {
+    img: κ,
+    title: "Κάππα",
+    cols: 1,
+  },
+  {
+    img: λ,
+    title: "Λάμδα",
+    cols: 1,
+  },
+  {
+    img: μ,
+    title: "Μι",
+    cols: 1,
+  },
+  {
+    img: ν,
+    title: "Νι",
+    cols: 1,
+  },
+  {
+    img: ξ,
+    title: "Ξι",
+    cols: 1,
+  },
+  {
+    img: ο,
+    title: "Όμικρον",
+    cols: 1,
+  },
+  {
+    img: π,
+    title: "Πι",
+    cols: 1,
+  },
+  {
+    img: ρ,
+    title: "Ρο",
+    cols: 1,
+  },
+  {
+    img: σ,
+    title: "Σίγμα",
+    cols: 1,
+  },
+  {
+    img: τ,
+    title: "Ταφ",
+    cols: 1,
+  },
+  {
+    img: υ,
+    title: "Ύψιλον",
+    cols: 1,
+  },
+  {
+    img: φ,
+    title: "Φι",
+    cols: 1,
+  },
+  {
+    img: χ,
+    title: "Χι",
+    cols: 1,
+  },
+  {
+    img: ψ,
+    title: "Ψι",
+    cols: 1,
+  },
+  {
+    img: ω,
+    title: "Ωμέγα",
+    cols: 1,
+  },
+];
+
+export const chateau = [
+  {
+    img: chateau1,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau2,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau3,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau4,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau5,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau6,
+    title: "chateau",
+    cols: 1,
+  },
+  {
+    img: chateau7,
+    title: "chateau",
+    cols: 1,
+  },
+];
+
+export const glasgow = [
+  {
+    img: glasgow1,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow2,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow3,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow4,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow5,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow6,
+    title: "Glasgow1",
+    cols: 1,
+  },
+  {
+    img: glasgow7,
+    title: "Glasgow1",
+    cols: 1,
+  },
+];
 
 export const curious = [
   {

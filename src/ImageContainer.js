@@ -1,5 +1,4 @@
 import React from "react";
-
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
@@ -75,9 +74,15 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
     },
   },
+  sectionTextStyle: {
+    color: "white",
+    margin: 20,
+    fontSize: 30,
+    padding: 20,
+  },
 }));
 
-const ImageContainer = ({ tileData, info }) => {
+const ImageContainer = ({ tileData, info, projectTitle }) => {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -121,6 +126,17 @@ const ImageContainer = ({ tileData, info }) => {
 
   return (
     <div className={classes.root}>
+      {projectTitle ? (
+        <Typography
+          align="center"
+          gutterBottom
+          variant="h5"
+          component="h2"
+          className={classes.sectionTextStyle}
+        >
+          {projectTitle}
+        </Typography>
+      ) : null}
       {info ? (
         <Typography align="center" className={classes.infoStyle}>
           {info}

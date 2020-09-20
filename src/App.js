@@ -4,7 +4,19 @@ import { Grid, Divider, Typography, CssBaseline } from "@material-ui/core";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Header from "./Header";
 import AnnaCard from "./AnnaCard";
-import { sketches, digital, figure, curious } from "./imageImports";
+import {
+  sketches,
+  digital,
+  figure,
+  curious,
+  glasgow,
+  chateau,
+  alpha,
+  curiousInfo,
+  glasgowInfo,
+  chateauInfo,
+  alphaInfo,
+} from "./imageImports";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import ImageContainer from "./ImageContainer";
@@ -43,16 +55,6 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   const theme = useTheme();
-
-  const curiousInfo = `Exploratory collages playing with the juxtaposition created when
-  an object is removed from its customary context and placed in an
-  unexpected space, resulting in images with a rather jarring,
-  questionable validity applied to re-evaluating aesthetic
-  relationships within the wider ecosystem. Additionally, note the
-  unsettling semblance created by removing an object in its
-  entirety, leaving in its place a void of nothing. I took
-  influence from contemporary collage artists such as Puma Dunbar
-  and Karen Lynch.`;
 
   return (
     <Router>
@@ -122,16 +124,29 @@ function App() {
                 Projects
                 <Divider />
               </Typography>
-              <Typography
-                gutterBottom
-                variant="h5"
-                component="h2"
-                align="center"
-                className={classes.sectionTextStyle}
-              >
-                Curious Collages(2019)
-              </Typography>
-              <ImageContainer tileData={curious} info={curiousInfo} />
+
+              <ImageContainer
+                tileData={curious}
+                info={curiousInfo}
+                projectTitle={"Curious Collages (2019)"}
+              />
+              <ImageContainer
+                tileData={glasgow}
+                info={glasgowInfo}
+                projectTitle={"Glasgow (2020)"}
+              />
+              <ImageContainer
+                tileData={chateau}
+                info={chateauInfo}
+                projectTitle={"Lait De Chateau (2019)"}
+              />
+              <ImageContainer
+                tileData={alpha}
+                info={alphaInfo}
+                projectTitle={"Άλφα (2020)"}
+              />
+              <br />
+              <br />
             </Grid>
           </Grid>
           <Grid item xs={false} sm={2}></Grid>
