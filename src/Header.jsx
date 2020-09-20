@@ -25,6 +25,7 @@ import StarBorder from "@material-ui/icons/StarBorder";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 
 const drawerWidth = 240;
 
@@ -90,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: theme.spacing(4),
   },
   headerTitle: {
-    // marginLeft: "auto",
+    marginRight: "auto",
     color: "black",
   },
   link: {
@@ -99,7 +100,15 @@ const useStyles = makeStyles((theme) => ({
   },
   socialButton: {
     color: "black",
+    margin: "auto",
+    [theme.breakpoints.down("xl")]: {
+      fontSize: 30,
+    },
+  },
+  socialLink: {
     marginLeft: "auto",
+    color: "black",
+    textDecoration: "inherit",
   },
 }));
 
@@ -143,7 +152,23 @@ export default function PersistentDrawerLeft() {
           <Typography className={classes.headerTitle} variant="h6" noWrap>
             Menu
           </Typography>
-          <InstagramIcon className={classes.socialButton} fontSize="large" />
+
+          <a
+            href="mailto:annajwaterston@gmail.com"
+            classname={classes.socialLink}
+          >
+            <AlternateEmailIcon
+              className={classes.socialButton}
+              fontSize="large"
+              style={{ marginRight: theme.spacing(2) }}
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/annaonart/"
+            classname={classes.socialLink}
+          >
+            <InstagramIcon className={classes.socialButton} fontSize="large" />
+          </a>
         </Toolbar>
       </AppBar>
       <Drawer

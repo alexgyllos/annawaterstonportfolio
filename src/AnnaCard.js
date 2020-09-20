@@ -127,8 +127,7 @@ export default function MediaCard() {
           <Typography>
             Thank you for taking the time to explore my artwork and feel free to
             contact me for commissions, any other enquiries, or even just to say
-            Hi! At annajwaterston@gmail.com Or follow me for more regular
-            updates at https://www.instagram.com/annaonart/
+            hi!
           </Typography>
         </CardContent>
       </Collapse>

@@ -124,7 +124,11 @@ function App() {
                 Projects
                 <Divider />
               </Typography>
-
+              <ImageContainer
+                tileData={chateau}
+                info={chateauInfo}
+                projectTitle={"Lait De Chateau (2019)"}
+              />
               <ImageContainer
                 tileData={curious}
                 info={curiousInfo}
@@ -135,11 +139,7 @@ function App() {
                 info={glasgowInfo}
                 projectTitle={"Glasgow (2020)"}
               />
-              <ImageContainer
-                tileData={chateau}
-                info={chateauInfo}
-                projectTitle={"Lait De Chateau (2019)"}
-              />
+
               <ImageContainer
                 tileData={alpha}
                 info={alphaInfo}

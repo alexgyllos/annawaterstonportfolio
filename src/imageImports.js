@@ -230,7 +230,7 @@ export const chateau = [
   {
     img: chateau1,
     title: "chateau",
-    cols: 1,
+    cols: 3,
   },
   {
     img: chateau2,
@@ -240,12 +240,12 @@ export const chateau = [
   {
     img: chateau3,
     title: "chateau",
-    cols: 1,
+    cols: 2,
   },
   {
     img: chateau4,
     title: "chateau",
-    cols: 1,
+    cols: 3,
   },
   {
     img: chateau5,
@@ -268,7 +268,7 @@ export const glasgow = [
   {
     img: glasgow1,
     title: "Glasgow1",
-    cols: 1,
+    cols: 2,
   },
   {
     img: glasgow2,
@@ -283,7 +283,7 @@ export const glasgow = [
   {
     img: glasgow4,
     title: "Glasgow1",
-    cols: 1,
+    cols: 2,
   },
   {
     img: glasgow5,
@@ -306,7 +306,7 @@ export const curious = [
   {
     img: curious1,
     title: "1",
-    cols: 1,
+    cols: 2,
   },
   {
     img: curious2,
@@ -314,9 +314,9 @@ export const curious = [
     cols: 1,
   },
   {
-    img: curious3,
-    title: "3",
-    cols: 1,
+    img: curious6,
+    title: "6",
+    cols: 3,
   },
   {
     img: curious3,
@@ -326,17 +326,12 @@ export const curious = [
   {
     img: curious4,
     title: "4",
-    cols: 1,
+    cols: 2,
   },
   {
     img: curious5,
     title: "5",
-    cols: 1,
-  },
-  {
-    img: curious6,
-    title: "6",
-    cols: 1,
+    cols: 3,
   },
 ];
 
