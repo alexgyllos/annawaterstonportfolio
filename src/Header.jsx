@@ -26,6 +26,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const drawerWidth = 240;
 
@@ -157,17 +158,24 @@ export default function PersistentDrawerLeft() {
             href="mailto:annajwaterston@gmail.com"
             classname={classes.socialLink}
           >
-            <AlternateEmailIcon
-              className={classes.socialButton}
-              fontSize="large"
-              style={{ marginRight: theme.spacing(2) }}
-            />
+            <Tooltip title="annajwaterston@gmail.com" arrow>
+              <AlternateEmailIcon
+                className={classes.socialButton}
+                fontSize="large"
+                style={{ marginRight: theme.spacing(2) }}
+              />
+            </Tooltip>
           </a>
           <a
             href="https://www.instagram.com/annaonart/"
             classname={classes.socialLink}
           >
-            <InstagramIcon className={classes.socialButton} fontSize="large" />
+            <Tooltip title="@annaonart" arrow>
+              <InstagramIcon
+                className={classes.socialButton}
+                fontSize="large"
+              />
+            </Tooltip>
           </a>
         </Toolbar>
       </AppBar>
@@ -194,9 +202,8 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <List>
           {["About Me"].map((text, index) => (
-            // <Link smooth to={`#${text}`}>
             <Link smooth to="#about" className={classes.link}>
-              <ListItem button key={text}>
+              <ListItem button key={index}>
                 <ListItemText primary={text} />
               </ListItem>
             </Link>
