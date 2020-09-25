@@ -5,13 +5,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import Header from "./Header";
 import AnnaCard from "./AnnaCard";
 import {
-  // sketches,
-  // digital,
-  // figure,
-  // curious,
-  // glasgow,
-  // chateau,
-  // alpha,
+  sketches,
+  digital,
+  figure,
+  curious,
+  glasgow,
+  chateau,
+  alpha,
   curiousInfo,
   glasgowInfo,
   chateauInfo,
@@ -79,7 +79,7 @@ function App() {
                 Figure Drawing
                 <Divider />
               </Typography>
-              {/* <ImageContainer tileData={figure} /> */}
+              <ImageContainer tileData={figure} />
 
               <Typography
                 gutterBottom
@@ -92,7 +92,7 @@ function App() {
                 Sketches 2020
                 <Divider />
               </Typography>
-              {/* <ImageContainer tileData={sketches} /> */}
+              <ImageContainer tileData={sketches} />
 
               <Typography
                 gutterBottom
@@ -106,7 +106,7 @@ function App() {
                 <Divider />
               </Typography>
 
-              {/* <ImageContainer tileData={digital} /> */}
+              <ImageContainer tileData={digital} />
 
               <Typography
                 gutterBottom
@@ -120,23 +120,23 @@ function App() {
                 <Divider />
               </Typography>
               <ImageContainer
-                // tileData={chateau}
+                tileData={chateau}
                 info={chateauInfo}
                 projectTitle={"Lait De Chateau (2019)"}
               />
               <ImageContainer
-                // tileData={curious}
+                tileData={curious}
                 info={curiousInfo}
                 projectTitle={"Curious Collages (2019)"}
               />
               <ImageContainer
-                // tileData={glasgow}
+                tileData={glasgow}
                 info={glasgowInfo}
                 projectTitle={"Glasgow (2020)"}
               />
 
               <ImageContainer
-                // tileData={alpha}
+                tileData={alpha}
                 info={alphaInfo}
                 projectTitle={"Άλφα (2020)"}
               />
