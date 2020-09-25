@@ -229,37 +229,37 @@ export const alpha = [
 export const chateau = [
   {
     img: chateau1,
-    title: "chateau",
+    title: "Transposed 1",
     cols: 3,
   },
   {
     img: chateau2,
-    title: "chateau",
+    title: "Transposed 2",
     cols: 1,
   },
   {
     img: chateau3,
-    title: "chateau",
+    title: "Exploration Series",
     cols: 2,
   },
   {
     img: chateau4,
-    title: "chateau",
+    title: "Untold",
     cols: 3,
   },
   {
     img: chateau5,
-    title: "chateau",
+    title: "Lost",
     cols: 1,
   },
   {
     img: chateau6,
-    title: "chateau",
+    title: "Transposed 3",
     cols: 1,
   },
   {
     img: chateau7,
-    title: "chateau",
+    title: "Transposed 4",
     cols: 1,
   },
 ];
@@ -267,37 +267,37 @@ export const chateau = [
 export const glasgow = [
   {
     img: glasgow1,
-    title: "Glasgow1",
+    title: "Wait 1",
     cols: 2,
   },
   {
     img: glasgow2,
-    title: "Glasgow1",
+    title: "Stand-by",
     cols: 1,
   },
   {
     img: glasgow3,
-    title: "Glasgow1",
+    title: "Wait 2",
     cols: 1,
   },
   {
     img: glasgow4,
-    title: "Glasgow1",
+    title: "Wait Refined",
     cols: 2,
   },
   {
     img: glasgow5,
-    title: "Glasgow1",
+    title: "Stand-by Refined",
     cols: 1,
   },
   {
     img: glasgow6,
-    title: "Glasgow1",
+    title: "Pattern Sample 1",
     cols: 1,
   },
   {
     img: glasgow7,
-    title: "Glasgow1",
+    title: "Pattern Sample 2",
     cols: 1,
   },
 ];
@@ -305,32 +305,32 @@ export const glasgow = [
 export const curious = [
   {
     img: curious1,
-    title: "1",
+    title: "Nana's Settee",
     cols: 2,
   },
   {
     img: curious2,
-    title: "2",
+    title: "Lounge 1",
     cols: 1,
   },
   {
     img: curious6,
-    title: "6",
+    title: "Lounge 2",
     cols: 3,
   },
   {
     img: curious3,
-    title: "3",
+    title: "Lounge 3",
     cols: 1,
   },
   {
     img: curious4,
-    title: "4",
+    title: "Milksop 1",
     cols: 2,
   },
   {
     img: curious5,
-    title: "5",
+    title: "Milksop 2",
     cols: 3,
   },
 ];
@@ -343,17 +343,17 @@ export const figure = [
   },
   {
     img: nine,
-    title: "08:06:20",
+    title: "08/06/20",
     cols: 1,
   },
   {
     img: sixteen,
-    title: "29:06:20",
+    title: "29/06/20",
     cols: 3,
   },
   {
     img: ten,
-    title: "18:05:20",
+    title: "18/05/20",
     cols: 1,
   },
   {
@@ -368,58 +368,58 @@ export const figure = [
   },
   {
     img: two,
-    title: "03:08:20",
+    title: "03/08/20",
     cols: 3,
   },
   {
     img: three,
-    title: "06:01:20",
+    title: "06/01/20",
     cols: 1,
   },
   {
     img: four,
-    title: "06:01:20",
+    title: "06/01/20",
     cols: 1,
   },
   {
     img: six,
-    title: "06:09:20",
+    title: "06/09/20",
     cols: 1,
   },
   {
     img: seven,
-    title: "07:09:20",
+    title: "07/09/20",
     cols: 3,
   },
 
   {
     img: fourteen,
-    title: "23:06:20",
+    title: "23/06/20",
     cols: 1,
   },
   {
     img: twelve,
-    title: "20:07:20",
+    title: "20/07/20",
     cols: 1,
   },
   {
     img: nineteen,
-    title: "15:06:20",
+    title: "15/06/20",
     cols: 1,
   },
   {
     img: thirteen,
-    title: "22:07:20",
+    title: "22/07/20",
     cols: 2,
   },
   {
     img: eight,
-    title: "08:06:20",
+    title: "08/06/20",
     cols: 1,
   },
   {
     img: fifteen,
-    title: "27:07:20",
+    title: "27/07/20",
     cols: 3,
   },
 ];
@@ -466,7 +466,7 @@ export const digital = [
 export const sketches = [
   {
     img: Alex,
-    title: "17:04:20",
+    title: "17/04/20",
     author: "Anna Waterston",
     cols: 3,
   },
