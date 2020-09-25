@@ -40,7 +40,7 @@ import seventeen from "./assets/Figure Drawing/A Monday 2.jpg";
 import eighteen from "./assets/Figure Drawing/A Monday.jpg";
 import nineteen from "./assets/Figure Drawing/15:06:20.jpg";
 import curious1 from "./assets/Projects/Curious Collage/IMG_1905.jpg";
-import curious2 from "./assets/Projects/Curious Collage/IMG_1907.jpg";
+// import curious2 from "./assets/Projects/Curious Collage/IMG_1907.jpg";
 import curious3 from "./assets/Projects/Curious Collage/IMG_1909.jpg";
 import curious4 from "./assets/Projects/Curious Collage/IMG_1911.jpg";
 import curious5 from "./assets/Projects/Curious Collage/IMG_1912.jpg";
@@ -308,11 +308,11 @@ export const curious = [
     title: "Nana's Settee",
     cols: 2,
   },
-  {
-    img: curious2,
-    title: "Lounge 1",
-    cols: 1,
-  },
+  // {
+  //   img: curious2,
+  //   title: "Lounge 1",
+  //   cols: 1,
+  // },
   {
     img: curious6,
     title: "Lounge 2",
