@@ -5,24 +5,16 @@ import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-
 import List from "@material-ui/core/List";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
 import Collapse from "@material-ui/core/Collapse";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
-import StarBorder from "@material-ui/icons/StarBorder";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
@@ -107,7 +99,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   socialLink: {
-    marginLeft: "auto",
     color: "black",
     textDecoration: "inherit",
   },
@@ -142,7 +133,6 @@ export default function PersistentDrawerLeft() {
       >
         <Toolbar style={{ backgroundColor: "white" }}>
           <IconButton
-            // color="black"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
@@ -156,7 +146,7 @@ export default function PersistentDrawerLeft() {
 
           <a
             href="mailto:annajwaterston@gmail.com"
-            classname={classes.socialLink}
+            className={classes.socialLink}
           >
             <Tooltip title="annajwaterston@gmail.com" arrow>
               <AlternateEmailIcon
@@ -168,7 +158,7 @@ export default function PersistentDrawerLeft() {
           </a>
           <a
             href="https://www.instagram.com/annaonart/"
-            classname={classes.socialLink}
+            className={classes.socialLink}
           >
             <Tooltip title="@annaonart" arrow>
               <InstagramIcon
@@ -191,10 +181,8 @@ export default function PersistentDrawerLeft() {
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
-              // <ChevronLeftIcon />
               <Typography style={{ color: "white" }}>Exit</Typography>
             ) : (
-              // <ChevronRightIcon />
               <Typography style={{ color: "white" }}>Exit</Typography>
             )}
           </IconButton>
@@ -202,7 +190,7 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <List>
           {["About Me"].map((text, index) => (
-            <Link smooth to="#about" className={classes.link}>
+            <Link smooth to="#about" className={classes.link} key={index}>
               <ListItem button key={index}>
                 <ListItemText primary={text} />
               </ListItem>

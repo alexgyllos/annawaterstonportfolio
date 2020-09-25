@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     justifyContent: "space-around",
     overflow: "hidden",
-    // backgroundColor: "#0a0a0a",
     backgroundColor: "rgba(0,0,0,0)",
     alignItems: "center",
     width: "100%",
@@ -25,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
     height: 700,
     [theme.breakpoints.down("sm")]: {
       width: "100%",
-      //   height: 100,
     },
     alignSelf: "center",
   },

@@ -17,10 +17,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignSelf: "center",
-    // margin: "30px",
-    // backgroundColor: "rgba(217, 217, 217, 1)",
     [theme.breakpoints.down("xs")]: {
-      // margin: 10,
       marginBottom: 20,
     },
   },

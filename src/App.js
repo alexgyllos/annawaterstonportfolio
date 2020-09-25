@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Grid, Divider, Typography, CssBaseline } from "@material-ui/core";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { Grid, Divider, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 import Header from "./Header";
 import AnnaCard from "./AnnaCard";
 import {
@@ -17,17 +17,13 @@ import {
   chateauInfo,
   alphaInfo,
 } from "./imageImports";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-
+import { BrowserRouter as Router } from "react-router-dom";
 import ImageContainer from "./ImageContainer";
 
 const useStyles = makeStyles((theme) => ({
   introGrid: {
     display: "flex",
     backgroundColor: "#3f5583",
-    // backgroundImage: `url(${Pattern})`,
-    // backgroundRepeat: "no-repeat",
-    // backgroundSize: "cover",
   },
   contentGrid: {
     display: "flex",
@@ -54,7 +50,6 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
-  const theme = useTheme();
 
   return (
     <Router>
