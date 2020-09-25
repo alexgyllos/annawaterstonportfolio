@@ -145,16 +145,18 @@ const ImageContainer = ({ tileData, info, projectTitle }) => {
         className={classes.gridList}
         cols={setColumns()}
       >
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img} cols={setTileColumns(tile.cols)}>
-            <img
-              className={classes.tileImage}
-              src={tile.img}
-              alt={tile.title}
-              onClick={() => handleOpen(tile)}
-            />
-          </GridListTile>
-        ))}
+        {tileData
+          ? tileData.map((tile) => (
+              <GridListTile key={tile.img} cols={setTileColumns(tile.cols)}>
+                <img
+                  className={classes.tileImage}
+                  src={tile.img}
+                  alt={tile.title}
+                  onClick={() => handleOpen(tile)}
+                />
+              </GridListTile>
+            ))
+          : null}
       </GridList>
       <Modal
         aria-labelledby="transition-modal-title"
