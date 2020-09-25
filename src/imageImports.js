@@ -1,88 +1,88 @@
-import Alex from "./assets/2020 Sketching/17:04:20.JPG";
-import Audrey from "./assets/2020 Sketching/Audrey.JPG";
-import GreekCoffee from "./assets/2020 Sketching/GreekCoffee.jpg";
-import Journey from "./assets/2020 Sketching/Journey.jpg";
-import Journey2 from "./assets/2020 Sketching/Journey2.jpg";
-import Kitchen from "./assets/2020 Sketching/Kitchen.jpg";
-import LivingRoom from "./assets/2020 Sketching/LivingRoom.jpg";
-import Napkin from "./assets/2020 Sketching/Napkin.jpg";
-import Red from "./assets/2020 Sketching/Red.jpg";
-import Red2 from "./assets/2020 Sketching/Red2.jpg";
-import Routine from "./assets/2020 Sketching/Routine.JPG";
-import SelfPortrait from "./assets/2020 Sketching/SelfPortrait.jpg";
-import Untitled1 from "./assets/2020 Sketching/Untitled1.jpg";
-import Untitled2 from "./assets/2020 Sketching/Untitled2.jpg";
-import Sun from "./assets/2020 Sketching/Ηλιος.jpg";
-import Orange from "./assets/2020 Sketching/Πορτοκαλι.jpg";
-import Oropos from "./assets/2020 Sketching/Ωρωπος.jpg";
-import BadWeatherFrog from "./assets/Digital Illustration/BadWeatherFrog.jpg";
-import FrogMood from "./assets/Digital Illustration/FrogMood.jpg";
-import FroggieFriends from "./assets/Digital Illustration/FroggieFriends.jpg";
-import FrogSerenade from "./assets/Digital Illustration/FrogSerenade.jpg";
-import SummerFeet from "./assets/Digital Illustration/SummerFeets.jpg";
-import SummerSocks from "./assets/Digital Illustration/SummerSocks.jpg";
-import YogaFrog from "./assets/Digital Illustration/YogaFrog.jpg";
-import one from "./assets/Figure Drawing/02:03:20.jpg";
-import two from "./assets/Figure Drawing/03:08:20.jpg";
-import three from "./assets/Figure Drawing/06:01:20 2.jpg";
-import four from "./assets/Figure Drawing/06:01:20.jpg";
-import six from "./assets/Figure Drawing/06:09:20.jpg";
-import seven from "./assets/Figure Drawing/07:09:20.jpg";
-import eight from "./assets/Figure Drawing/08:06:20 2.jpg";
-import nine from "./assets/Figure Drawing/08:06:20.jpg";
-import ten from "./assets/Figure Drawing/18:05:20 2.jpg";
-import twelve from "./assets/Figure Drawing/20:07:20.jpg";
-import thirteen from "./assets/Figure Drawing/22:07:20.jpg";
-import fourteen from "./assets/Figure Drawing/23:06:20.jpg";
-import fifteen from "./assets/Figure Drawing/27:07:20.jpg";
-import sixteen from "./assets/Figure Drawing/29:06:20.jpg";
-import seventeen from "./assets/Figure Drawing/A Monday 2.jpg";
-import eighteen from "./assets/Figure Drawing/A Monday.jpg";
-import nineteen from "./assets/Figure Drawing/15:06:20.jpg";
-import curious1 from "./assets/Projects/Curious Collage/IMG_1905.jpg";
-import curious2 from "./assets/Projects/Curious Collage/IMG_1907.jpg";
-import curious3 from "./assets/Projects/Curious Collage/IMG_1909.jpg";
-import curious4 from "./assets/Projects/Curious Collage/IMG_1911.jpg";
-import curious5 from "./assets/Projects/Curious Collage/IMG_1912.jpg";
-import curious6 from "./assets/Projects/Curious Collage/IMG_1915.jpg";
-import glasgow1 from "./assets/Projects/Glasgow/1copy.jpg";
-import glasgow2 from "./assets/Projects/Glasgow/2copy.jpg";
-import glasgow3 from "./assets/Projects/Glasgow/IMG_1621.jpg";
-import glasgow4 from "./assets/Projects/Glasgow/IMG_1626.jpg";
-import glasgow5 from "./assets/Projects/Glasgow/IMG_1627.jpg";
-import glasgow6 from "./assets/Projects/Glasgow/pattern1copy.jpg";
-import glasgow7 from "./assets/Projects/Glasgow/pattern2copy.jpg";
-import chateau1 from "./assets/Projects/Lait de Chateau/IMG_1656.jpg";
-import chateau2 from "./assets/Projects/Lait de Chateau/IMG_2136 2.jpg";
-import chateau3 from "./assets/Projects/Lait de Chateau/IMG_3399.jpg";
-import chateau4 from "./assets/Projects/Lait de Chateau/IMG_3400.jpg";
-import chateau5 from "./assets/Projects/Lait de Chateau/IMG_3402.jpg";
-import chateau6 from "./assets/Projects/Lait de Chateau/IMG_4506.jpg";
-import chateau7 from "./assets/Projects/Lait de Chateau/IMG_4620.jpg";
-import α from "./assets/Projects/Αλφα/Αλφα.jpg";
-import β from "./assets/Projects/Αλφα/Βητα.jpg";
-import γ from "./assets/Projects/Αλφα/Γαμμα.jpg";
-import δ from "./assets/Projects/Αλφα/Δελτα.jpg";
-import ε from "./assets/Projects/Αλφα/Εψιλον.jpg";
-import ζ from "./assets/Projects/Αλφα/Ζητα.jpg";
-import η from "./assets/Projects/Αλφα/Ητα.jpg";
-import θ from "./assets/Projects/Αλφα/Θητα.jpg";
-import ι from "./assets/Projects/Αλφα/Ιοτα.jpg";
-import κ from "./assets/Projects/Αλφα/Καππα.jpg";
-import λ from "./assets/Projects/Αλφα/Λαμδα.jpg";
-import μ from "./assets/Projects/Αλφα/Μι.jpg";
-import ν from "./assets/Projects/Αλφα/Νι.jpg";
-import ξ from "./assets/Projects/Αλφα/Ξι.jpg";
-import ο from "./assets/Projects/Αλφα/Ομικρον.jpg";
-import π from "./assets/Projects/Αλφα/Πι.jpg";
-import ρ from "./assets/Projects/Αλφα/Ρο.jpg";
-import σ from "./assets/Projects/Αλφα/Σιγμα.jpg";
-import τ from "./assets/Projects/Αλφα/Ταυ.jpg";
-import υ from "./assets/Projects/Αλφα/Υψιλον.jpg";
-import φ from "./assets/Projects/Αλφα/Φι.jpg";
-import χ from "./assets/Projects/Αλφα/Χι.jpg";
-import ψ from "./assets/Projects/Αλφα/Ψι.jpg";
-import ω from "./assets/Projects/Αλφα/Ωμεγα.jpg";
+import Alex from "./assets/sketching/alex.jpg";
+import Audrey from "./assets/sketching/audrey.jpg";
+import GreekCoffee from "./assets/sketching/coffee.jpg";
+import Journey from "./assets/sketching/journey.jpg";
+import Journey2 from "./assets/sketching/journeytwo.jpg";
+import Kitchen from "./assets/sketching/kitchen.jpg";
+import LivingRoom from "./assets/sketching/livingroom.jpg";
+import Napkin from "./assets/sketching/napkin.jpg";
+import Red from "./assets/sketching/red.jpg";
+import Red2 from "./assets/sketching/redtwo.jpg";
+import Routine from "./assets/sketching/routine.jpg";
+import SelfPortrait from "./assets/sketching/selfportrait.jpg";
+import Untitled1 from "./assets/sketching/untitledone.jpg";
+import Untitled2 from "./assets/sketching/untitledtwo.jpg";
+import Sun from "./assets/sketching/sun.jpg";
+import Orange from "./assets/sketching/orange.jpg";
+import Oropos from "./assets/sketching/oropos.jpg";
+import BadWeatherFrog from "./assets/digital/badweather.jpg";
+import FrogMood from "./assets/digital/mood.jpg";
+import FroggieFriends from "./assets/digital/friends.jpg";
+import FrogSerenade from "./assets/digital/serenade.jpg";
+import SummerFeet from "./assets/digital/feet.jpg";
+import SummerSocks from "./assets/digital/socks.jpg";
+import YogaFrog from "./assets/digital/yoga.jpg";
+import one from "./assets/figure/a.jpg";
+import two from "./assets/figure/b.jpg";
+import three from "./assets/figure/c.jpg";
+import four from "./assets/figure/d.jpg";
+import six from "./assets/figure/r.jpg";
+import seven from "./assets/figure/f.jpg";
+import eight from "./assets/figure/g.jpg";
+import nine from "./assets/figure/h.jpg";
+import ten from "./assets/figure/i.jpg";
+import twelve from "./assets/figure/j.jpg";
+import thirteen from "./assets/figure/k.jpg";
+import fourteen from "./assets/figure/s.jpg";
+import fifteen from "./assets/figure/m.jpg";
+import sixteen from "./assets/figure/n.jpg";
+import seventeen from "./assets/figure/o.jpg";
+import eighteen from "./assets/figure/p.jpg";
+import nineteen from "./assets/figure/q.jpg";
+import curious1 from "./assets/projects/curious/nanna.jpg";
+import curious2 from "./assets/projects/curious/loungeone.jpg";
+import curious3 from "./assets/projects/curious/loungetwo.jpg";
+import curious4 from "./assets/projects/curious/loungethree.jpg";
+import curious5 from "./assets/projects/curious/milksop.jpg";
+import curious6 from "./assets/projects/curious/milksoptwo.jpg";
+import glasgow1 from "./assets/projects/glasgow/wait.jpg";
+import glasgow2 from "./assets/projects/glasgow/waitrefined.jpg";
+import glasgow3 from "./assets/projects/glasgow/waittwo.jpg";
+import glasgow4 from "./assets/projects/glasgow/standby.jpg";
+import glasgow5 from "./assets/projects/glasgow/standbyrefined.jpg";
+import glasgow6 from "./assets/projects/glasgow/patternsampleone.jpg";
+import glasgow7 from "./assets/projects/glasgow/patternsampletwo.jpg";
+import chateau1 from "./assets/projects/chateau/explorationseries.jpg";
+import chateau2 from "./assets/projects/chateau/lost.jpg";
+import chateau3 from "./assets/projects/chateau/transposedone.jpg";
+import chateau4 from "./assets/projects/chateau/transposedtwo.jpg";
+import chateau5 from "./assets/projects/chateau/transposedthree.jpg";
+import chateau6 from "./assets/projects/chateau/transposedfour.jpg";
+import chateau7 from "./assets/projects/chateau/untold.jpg";
+import α from "./assets/projects/alpha/a.jpg";
+import β from "./assets/projects/alpha/b.jpg";
+import γ from "./assets/projects/alpha/c.jpg";
+import δ from "./assets/projects/alpha/d.jpg";
+import ε from "./assets/projects/alpha/e.jpg";
+import ζ from "./assets/projects/alpha/z.jpg";
+import η from "./assets/projects/alpha/h.jpg";
+import θ from "./assets/projects/alpha/th.jpg";
+import ι from "./assets/projects/alpha/i.jpg";
+import κ from "./assets/projects/alpha/k.jpg";
+import λ from "./assets/projects/alpha/l.jpg";
+import μ from "./assets/projects/alpha/m.jpg";
+import ν from "./assets/projects/alpha/n.jpg";
+import ξ from "./assets/projects/alpha/ks.jpg";
+import ο from "./assets/projects/alpha/o.jpg";
+import π from "./assets/projects/alpha/p.jpg";
+import ρ from "./assets/projects/alpha/r.jpg";
+import σ from "./assets/projects/alpha/s.jpg";
+import τ from "./assets/projects/alpha/t.jpg";
+import υ from "./assets/projects/alpha/y.jpg";
+import φ from "./assets/projects/alpha/f.jpg";
+import χ from "./assets/projects/alpha/x.jpg";
+import ψ from "./assets/projects/alpha/ps.jpg";
+import ω from "./assets/projects/alpha/w.jpg";
 
 export const curiousInfo = `Exploratory collages playing with the juxtaposition created when
   an object is removed from its customary context and placed in an
@@ -308,11 +308,11 @@ export const curious = [
     title: "Nana's Settee",
     cols: 2,
   },
-  // {
-  //   img: curious2,
-  //   title: "Lounge 1",
-  //   cols: 1,
-  // },
+  {
+    img: curious2,
+    title: "Lounge 1",
+    cols: 1,
+  },
   {
     img: curious6,
     title: "Lounge 2",
@@ -391,7 +391,6 @@ export const figure = [
     title: "07/09/20",
     cols: 3,
   },
-
   {
     img: fourteen,
     title: "23/06/20",
