@@ -14,7 +14,7 @@ import Untitled1 from "./assets/2020 Sketching/Untitled 1.jpg";
 import Untitled2 from "./assets/2020 Sketching/Untitled 2.jpg";
 import Sun from "./assets/2020 Sketching/Ηλιος.jpg";
 import Orange from "./assets/2020 Sketching/Πορτοκαλι.jpg";
-import Oropos from "./assets/2020 Sketching/Ωρωποσ.jpg";
+import Oropos from "./assets/2020 Sketching/Ωρωπος.jpg";
 import BadWeatherFrog from "./assets/Digital Illustration/BadWeatherFrog.jpg";
 import FrogMood from "./assets/Digital Illustration/Frog Mood.jpg";
 import FroggieFriends from "./assets/Digital Illustration/Froggie Friends.jpg";
