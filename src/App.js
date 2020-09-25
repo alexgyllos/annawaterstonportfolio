@@ -11,7 +11,7 @@ import {
   // curious,
   // glasgow,
   // chateau,
-  alpha,
+  // alpha,
   curiousInfo,
   glasgowInfo,
   chateauInfo,
@@ -136,7 +136,7 @@ function App() {
               />
 
               <ImageContainer
-                tileData={alpha}
+                // tileData={alpha}
                 info={alphaInfo}
                 projectTitle={"Άλφα (2020)"}
               />

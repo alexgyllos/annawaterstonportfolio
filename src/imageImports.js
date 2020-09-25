@@ -59,30 +59,30 @@
 // import chateau5 from "./assets/Projects/Lait de Chateau/IMG_3402.jpg";
 // import chateau6 from "./assets/Projects/Lait de Chateau/IMG_4506.jpg";
 // import chateau7 from "./assets/Projects/Lait de Chateau/IMG_4620.jpg";
-import α from "./assets/Projects/Αλφα/Αλφα.jpg";
-import β from "./assets/Projects/Αλφα/Βητα.jpg";
-import γ from "./assets/Projects/Αλφα/Γαμμα.jpg";
-import δ from "./assets/Projects/Αλφα/Δελτα.jpg";
-import ε from "./assets/Projects/Αλφα/Εψιλον.jpg";
-import ζ from "./assets/Projects/Αλφα/Ζητα.jpg";
-import η from "./assets/Projects/Αλφα/Ητα.jpg";
-import θ from "./assets/Projects/Αλφα/Θητα.jpg";
-import ι from "./assets/Projects/Αλφα/Ιοτα.jpg";
-import κ from "./assets/Projects/Αλφα/Καππα.jpg";
-import λ from "./assets/Projects/Αλφα/Λαμδα.jpg";
-import μ from "./assets/Projects/Αλφα/Μι.jpg";
-import ν from "./assets/Projects/Αλφα/Νι.jpg";
-import ξ from "./assets/Projects/Αλφα/Ξι.jpg";
-import ο from "./assets/Projects/Αλφα/Ομικρον.jpg";
-import π from "./assets/Projects/Αλφα/Πι.jpg";
-import ρ from "./assets/Projects/Αλφα/Ρο.jpg";
-import σ from "./assets/Projects/Αλφα/Σιγμα.jpg";
-import τ from "./assets/Projects/Αλφα/Ταυ.jpg";
-import υ from "./assets/Projects/Αλφα/Υψιλον.jpg";
-import φ from "./assets/Projects/Αλφα/Φι.jpg";
-import χ from "./assets/Projects/Αλφα/Χι.jpg";
-import ψ from "./assets/Projects/Αλφα/Ψι.jpg";
-import ω from "./assets/Projects/Αλφα/Ωμεγα.jpg";
+// import α from "./assets/Projects/Αλφα/Αλφα.jpg";
+// import β from "./assets/Projects/Αλφα/Βητα.jpg";
+// import γ from "./assets/Projects/Αλφα/Γαμμα.jpg";
+// import δ from "./assets/Projects/Αλφα/Δελτα.jpg";
+// import ε from "./assets/Projects/Αλφα/Εψιλον.jpg";
+// import ζ from "./assets/Projects/Αλφα/Ζητα.jpg";
+// import η from "./assets/Projects/Αλφα/Ητα.jpg";
+// import θ from "./assets/Projects/Αλφα/Θητα.jpg";
+// import ι from "./assets/Projects/Αλφα/Ιοτα.jpg";
+// import κ from "./assets/Projects/Αλφα/Καππα.jpg";
+// import λ from "./assets/Projects/Αλφα/Λαμδα.jpg";
+// import μ from "./assets/Projects/Αλφα/Μι.jpg";
+// import ν from "./assets/Projects/Αλφα/Νι.jpg";
+// import ξ from "./assets/Projects/Αλφα/Ξι.jpg";
+// import ο from "./assets/Projects/Αλφα/Ομικρον.jpg";
+// import π from "./assets/Projects/Αλφα/Πι.jpg";
+// import ρ from "./assets/Projects/Αλφα/Ρο.jpg";
+// import σ from "./assets/Projects/Αλφα/Σιγμα.jpg";
+// import τ from "./assets/Projects/Αλφα/Ταυ.jpg";
+// import υ from "./assets/Projects/Αλφα/Υψιλον.jpg";
+// import φ from "./assets/Projects/Αλφα/Φι.jpg";
+// import χ from "./assets/Projects/Αλφα/Χι.jpg";
+// import ψ from "./assets/Projects/Αλφα/Ψι.jpg";
+// import ω from "./assets/Projects/Αλφα/Ωμεγα.jpg";
 
 export const curiousInfo = `Exploratory collages playing with the juxtaposition created when
   an object is removed from its customary context and placed in an
@@ -103,128 +103,128 @@ export const glasgowInfo =
 export const chateauInfo =
   "As part of a project I completed during my time at College, these images are composed of photographs I took exploring peripheral living, studying the contradiction of utopian ideals and dystopian realities. The subdued and contrasting tones reflect the urban context, alluding to the unmistakable melancholic atmosphere.";
 
-export const alpha = [
-  {
-    img: α,
-    title: "Άλφα",
-    cols: 1,
-  },
-  {
-    img: β,
-    title: "Βήτα",
-    cols: 1,
-  },
-  {
-    img: γ,
-    title: "Γάμα",
-    cols: 1,
-  },
-  {
-    img: δ,
-    title: "Δέλτα",
-    cols: 1,
-  },
-  {
-    img: ε,
-    title: "Έψιλον",
-    cols: 1,
-  },
-  {
-    img: ζ,
-    title: "Ζητα",
-    cols: 1,
-  },
-  {
-    img: η,
-    title: "Ήττα",
-    cols: 1,
-  },
-  {
-    img: θ,
-    title: "Θήτα",
-    cols: 1,
-  },
-  {
-    img: ι,
-    title: "Ιότα",
-    cols: 1,
-  },
-  {
-    img: κ,
-    title: "Κάππα",
-    cols: 1,
-  },
-  {
-    img: λ,
-    title: "Λάμδα",
-    cols: 1,
-  },
-  {
-    img: μ,
-    title: "Μι",
-    cols: 1,
-  },
-  {
-    img: ν,
-    title: "Νι",
-    cols: 1,
-  },
-  {
-    img: ξ,
-    title: "Ξι",
-    cols: 1,
-  },
-  {
-    img: ο,
-    title: "Όμικρον",
-    cols: 1,
-  },
-  {
-    img: π,
-    title: "Πι",
-    cols: 1,
-  },
-  {
-    img: ρ,
-    title: "Ρο",
-    cols: 1,
-  },
-  {
-    img: σ,
-    title: "Σίγμα",
-    cols: 1,
-  },
-  {
-    img: τ,
-    title: "Ταφ",
-    cols: 1,
-  },
-  {
-    img: υ,
-    title: "Ύψιλον",
-    cols: 1,
-  },
-  {
-    img: φ,
-    title: "Φι",
-    cols: 1,
-  },
-  {
-    img: χ,
-    title: "Χι",
-    cols: 1,
-  },
-  {
-    img: ψ,
-    title: "Ψι",
-    cols: 1,
-  },
-  {
-    img: ω,
-    title: "Ωμέγα",
-    cols: 1,
-  },
-];
+// export const alpha = [
+//   {
+//     img: α,
+//     title: "Άλφα",
+//     cols: 1,
+//   },
+//   {
+//     img: β,
+//     title: "Βήτα",
+//     cols: 1,
+//   },
+//   {
+//     img: γ,
+//     title: "Γάμα",
+//     cols: 1,
+//   },
+//   {
+//     img: δ,
+//     title: "Δέλτα",
+//     cols: 1,
+//   },
+//   {
+//     img: ε,
+//     title: "Έψιλον",
+//     cols: 1,
+//   },
+//   {
+//     img: ζ,
+//     title: "Ζητα",
+//     cols: 1,
+//   },
+//   {
+//     img: η,
+//     title: "Ήττα",
+//     cols: 1,
+//   },
+//   {
+//     img: θ,
+//     title: "Θήτα",
+//     cols: 1,
+//   },
+//   {
+//     img: ι,
+//     title: "Ιότα",
+//     cols: 1,
+//   },
+//   {
+//     img: κ,
+//     title: "Κάππα",
+//     cols: 1,
+//   },
+//   {
+//     img: λ,
+//     title: "Λάμδα",
+//     cols: 1,
+//   },
+//   {
+//     img: μ,
+//     title: "Μι",
+//     cols: 1,
+//   },
+//   {
+//     img: ν,
+//     title: "Νι",
+//     cols: 1,
+//   },
+//   {
+//     img: ξ,
+//     title: "Ξι",
+//     cols: 1,
+//   },
+//   {
+//     img: ο,
+//     title: "Όμικρον",
+//     cols: 1,
+//   },
+//   {
+//     img: π,
+//     title: "Πι",
+//     cols: 1,
+//   },
+//   {
+//     img: ρ,
+//     title: "Ρο",
+//     cols: 1,
+//   },
+//   {
+//     img: σ,
+//     title: "Σίγμα",
+//     cols: 1,
+//   },
+//   {
+//     img: τ,
+//     title: "Ταφ",
+//     cols: 1,
+//   },
+//   {
+//     img: υ,
+//     title: "Ύψιλον",
+//     cols: 1,
+//   },
+//   {
+//     img: φ,
+//     title: "Φι",
+//     cols: 1,
+//   },
+//   {
+//     img: χ,
+//     title: "Χι",
+//     cols: 1,
+//   },
+//   {
+//     img: ψ,
+//     title: "Ψι",
+//     cols: 1,
+//   },
+//   {
+//     img: ω,
+//     title: "Ωμέγα",
+//     cols: 1,
+//   },
+// ];
 
 // export const chateau = [
 //   {
