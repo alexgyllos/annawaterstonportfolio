@@ -228,27 +228,27 @@ export const alpha = [
 
 export const chateau = [
   {
-    img: chateau1,
+    img: chateau3,
     title: "Transposed 1",
     cols: 3,
   },
   {
-    img: chateau2,
+    img: chateau5,
     title: "Transposed 2",
     cols: 1,
   },
   {
-    img: chateau3,
+    img: chateau1,
     title: "Exploration Series",
     cols: 2,
   },
   {
-    img: chateau4,
+    img: chateau7,
     title: "Untold",
     cols: 3,
   },
   {
-    img: chateau5,
+    img: chateau2,
     title: "Lost",
     cols: 1,
   },
@@ -258,7 +258,7 @@ export const chateau = [
     cols: 1,
   },
   {
-    img: chateau7,
+    img: chateau4,
     title: "Transposed 4",
     cols: 1,
   },
@@ -266,13 +266,13 @@ export const chateau = [
 
 export const glasgow = [
   {
-    img: glasgow1,
-    title: "Wait 1",
+    img: glasgow5,
+    title: "Stand-by Refined",
     cols: 2,
   },
   {
     img: glasgow2,
-    title: "Stand-by",
+    title: "Wait Refined",
     cols: 1,
   },
   {
@@ -282,12 +282,12 @@ export const glasgow = [
   },
   {
     img: glasgow4,
-    title: "Wait Refined",
+    title: "Stand-by",
     cols: 2,
   },
   {
-    img: glasgow5,
-    title: "Stand-by Refined",
+    img: glasgow1,
+    title: "Wait 1",
     cols: 1,
   },
   {
@@ -314,7 +314,7 @@ export const curious = [
     cols: 1,
   },
   {
-    img: curious6,
+    img: curious4,
     title: "Lounge 2",
     cols: 3,
   },
@@ -324,12 +324,12 @@ export const curious = [
     cols: 1,
   },
   {
-    img: curious4,
+    img: curious5,
     title: "Milksop 1",
     cols: 2,
   },
   {
-    img: curious5,
+    img: curious6,
     title: "Milksop 2",
     cols: 3,
   },
@@ -337,8 +337,69 @@ export const curious = [
 
 export const figure = [
   {
+    img: fourteen,
+    title: "10/02/20",
+    cols: 1,
+  },
+  {
+    img: thirteen,
+    title: "18/05/20",
+    cols: 2,
+  },
+  {
+    img: six,
+    title: "10/02/20",
+    cols: 3,
+  },
+  {
     img: one,
     title: "02/03/20",
+    cols: 2,
+  },
+  {
+    img: ten,
+    title: "08/06/20",
+    cols: 1,
+  },
+  {
+    img: two,
+    title: "03/08/20",
+    cols: 3,
+  },
+  {
+    img: seventeen,
+    title: "23/06/20",
+    cols: 1,
+  },
+  {
+    img: twelve,
+    title: "29/06/20",
+    cols: 1,
+  },
+  {
+    img: fifteen,
+    title: "20/07/20",
+    cols: 1,
+  },
+  {
+    img: nineteen,
+    title: "15/06/20",
+    cols: 3,
+  },
+  {
+    img: seven,
+    title: "06/09/20",
+    cols: 1,
+  },
+
+  {
+    img: eight,
+    title: "07/09/20",
+    cols: 2,
+  },
+  {
+    img: sixteen,
+    title: "22/07/20",
     cols: 2,
   },
   {
@@ -347,29 +408,9 @@ export const figure = [
     cols: 1,
   },
   {
-    img: sixteen,
-    title: "29/06/20",
-    cols: 3,
-  },
-  {
-    img: ten,
-    title: "18/05/20",
-    cols: 1,
-  },
-  {
     img: eighteen,
-    title: "A Monday",
+    title: "27/07/20",
     cols: 1,
-  },
-  {
-    img: seventeen,
-    title: "A Monday 2",
-    cols: 1,
-  },
-  {
-    img: two,
-    title: "03/08/20",
-    cols: 3,
   },
   {
     img: three,
@@ -380,46 +421,6 @@ export const figure = [
     img: four,
     title: "06/01/20",
     cols: 1,
-  },
-  {
-    img: six,
-    title: "06/09/20",
-    cols: 1,
-  },
-  {
-    img: seven,
-    title: "07/09/20",
-    cols: 3,
-  },
-  {
-    img: fourteen,
-    title: "23/06/20",
-    cols: 1,
-  },
-  {
-    img: twelve,
-    title: "20/07/20",
-    cols: 1,
-  },
-  {
-    img: nineteen,
-    title: "15/06/20",
-    cols: 1,
-  },
-  {
-    img: thirteen,
-    title: "22/07/20",
-    cols: 2,
-  },
-  {
-    img: eight,
-    title: "08/06/20",
-    cols: 1,
-  },
-  {
-    img: fifteen,
-    title: "27/07/20",
-    cols: 3,
   },
 ];
 
