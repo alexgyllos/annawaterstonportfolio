@@ -7,6 +7,8 @@ import GridListTile from "@material-ui/core/GridListTile";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
+import LazyLoad from "react-lazyload";
+import Skeleton from "@material-ui/lab/Skeleton";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,21 +23,21 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: 800,
-    height: 700,
+    height: "100%",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },
     alignSelf: "center",
-  },
-  imageStyle: {
-    width: "100%",
-    height: "100%",
   },
   modal: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     alignSelf: "center",
+  },
+  imageStyle: {
+    width: "100%",
+    height: "100%",
   },
   paper: {
     position: "absolute",
@@ -57,8 +59,9 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       cursor: "pointer",
     },
+    width: "100%",
     [theme.breakpoints.down("xs")]: {
-      width: "100%",
+      maxWidth: "100%",
       height: 400,
     },
     alignSelf: "center",
@@ -148,12 +151,27 @@ const ImageContainer = ({ tileData, info, projectTitle }) => {
         {tileData
           ? tileData.map((tile) => (
               <GridListTile key={tile.img} cols={setTileColumns(tile.cols)}>
-                <img
-                  className={classes.tileImage}
-                  src={tile.img}
-                  alt={tile.title}
-                  onClick={() => handleOpen(tile)}
-                />
+                <LazyLoad
+                  // className={classes.tileImage}
+                  height={setCellHeight()}
+                  offset={100}
+                  placeholder={
+                    <Skeleton
+                      className={classes.tileImage}
+                      height={setCellHeight()}
+                      width={"100%"}
+                    />
+                  }
+                >
+                  <img
+                    title={tile.title}
+                    className={classes.tileImage}
+                    style={{ height: setCellHeight() }}
+                    src={tile.img}
+                    alt={tile.title}
+                    onClick={() => handleOpen(tile)}
+                  />
+                </LazyLoad>
               </GridListTile>
             ))
           : null}
