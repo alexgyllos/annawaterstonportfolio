@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MediaCard() {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(true);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);

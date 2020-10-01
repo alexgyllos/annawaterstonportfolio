@@ -157,10 +157,10 @@ export default function PersistentDrawerLeft() {
             </Tooltip>
           </a>
           <a
-            href="https://www.instagram.com/annaonart/"
+            href="https://www.instagram.com/annajwart/"
             className={classes.socialLink}
           >
-            <Tooltip title="@annaonart" arrow>
+            <Tooltip title="@annajwart" arrow>
               <InstagramIcon
                 className={classes.socialButton}
                 fontSize="large"
